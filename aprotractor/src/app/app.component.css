@@ -1,0 +1,16 @@
+.loginForm {
+    border: 1px solid lightgray;    
+    padding: 0
+}
+
+.titleDiv{
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-size: 20pt;
+    background-color: lightgray;
+    box-shadow: 1px 1px 1px 1px; 
+}
+
+.titleDiv.Active {
+    background-color: white
+}

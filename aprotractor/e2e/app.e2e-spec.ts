@@ -24,4 +24,9 @@ describe('aprotractor App', () => {
     console.log('RAM - END');
   });
 
+  it('should go to register tab',() =>{
+    page.navigateToProfileList();
+    expect(page.getParagraphTextProfile()).toEqual('Profiles');
+  })
+
 });

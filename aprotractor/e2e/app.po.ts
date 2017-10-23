@@ -20,4 +20,8 @@ export class AppPage {
   getPageTabs(){
     return element.all(by.tagName('li'));
   }
+
+  getParagraphTextProfile() {
+    return element(by.css('app-root h1')).getText();
+  }
 }
